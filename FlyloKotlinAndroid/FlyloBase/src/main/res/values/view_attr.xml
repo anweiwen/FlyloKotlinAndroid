@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TextViewDrawablePadding">
+        <attr format="dimension" name="text_drawable_padding" />
+    </declare-styleable>
+
+    <declare-styleable name="RadiusImageViewStyle">
+        <attr format="dimension" name="borderwidth"/>
+        <attr format="color" name="bordercolor"/>
+        <attr format="color" name="selected_mask_color"/>
+        <attr format="color" name="selected_border_color"/>
+        <attr format="dimension" name="selected_border_width"/>
+        <attr format="dimension" name="cornerradius"/>
+        <attr format="boolean" name="is_oval"/>
+        <attr format="boolean" name="iscircle"/>
+        <attr format="boolean" name="is_touch_select_mode_enabled"/>
+    </declare-styleable>
+    <attr name="RadiusImageViewStyle" format="reference"/>
+
+    <declare-styleable name="NiceImageView">
+        <attr format="boolean" name="is_circle"/>
+        <attr format="boolean" name="is_cover_src"/>
+        <attr format="dimension" name="corner_radius"/>
+        <attr format="dimension" name="corner_top_left_radius"/>
+        <attr format="dimension" name="corner_top_right_radius"/>
+        <attr format="dimension" name="corner_bottom_left_radius"/>
+        <attr format="dimension" name="corner_bottom_right_radius"/>
+        <attr format="dimension" name="border_width"/>
+        <attr format="color" name="border_color"/>
+        <attr format="dimension" name="inner_border_width"/>
+        <attr format="color" name="inner_border_color"/>
+        <attr format="color" name="mask_color"/>
+    </declare-styleable>
+</resources>

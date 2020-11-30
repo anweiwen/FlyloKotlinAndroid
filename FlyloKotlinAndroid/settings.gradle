@@ -1,0 +1,6 @@
+include ':FlyloPhoto'
+include ':FlyloFrame'
+include ':FlyloNet'
+include ':FlyloBase'
+include ':app'
+rootProject.name = "FlyloKotlinAndroid"
