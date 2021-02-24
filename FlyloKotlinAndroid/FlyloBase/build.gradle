@@ -8,7 +8,6 @@ apply plugin: 'com.jfrog.bintray'
 
 android {
     compileSdkVersion 30
-    buildToolsVersion "30.0.0"
 
     lintOptions {
         abortOnError false
@@ -37,7 +36,7 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     api 'androidx.appcompat:appcompat:1.2.0'
     api 'androidx.preference:preference:1.1.1'
-    api 'androidx.constraintlayout:constraintlayout:2.0.2'
+    api 'androidx.constraintlayout:constraintlayout:2.0.4'
 
     implementation 'com.github.yyued:SVGAPlayer-Android:2.4.7'
 

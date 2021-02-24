@@ -1,12 +1,12 @@
 // 定义两个链接，下面会用到。
-def siteUrl = 'https://github.com/anweiwen/FlyRadish' // 项目主页。
-def gitUrl = 'https://github.com/anweiwen/FlyRadish.git' // Git仓库的url。
+def siteUrl = 'https://github.com/anweiwen/FlyloKotlinAndroid' // 项目主页。
+def gitUrl = 'https://github.com/anweiwen/FlyloKotlinAndroid.git' // Git仓库的url。
 
 // 唯一包名，比如implementation 'com.davis.ui.pulltorefresh:pulltorefresh:2.1.0'中的com.davis.ui.pulltorefresh就是这里配置的。
 group = "com.flylo.base"
 
 //项目引用的版本号，比如implementation 'com.davis.ui.pulltorefresh:pulltorefresh:2.1.0'中的2.1.0就是这里配置的。
-version = "1.0.7"
+version = "1.0.0"
 
 install {
     repositories.mavenInstaller {
@@ -45,7 +45,7 @@ install {
 
                 dependencies {
                     dependency{
-                        groupId 'com.libin.imageloader'
+                        groupId 'FlyloTec'
                     }
                 }
             }
@@ -101,4 +101,4 @@ bintray {
 
 // ./gradlew clean
 // ./gradlew install
-//./gradlew bintrayUpload
+// ./gradlew bintrayUpload
